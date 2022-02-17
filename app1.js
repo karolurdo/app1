@@ -9,6 +9,7 @@ const newName = input.value;
 if (input.value.length) {
     for (name of names){
         if (name.toUpperCase() === newName.toUpperCase()) {
+            alert("Name arledy taken") //popup
         return; // end when name arledy in []
     }
 }
